@@ -1,0 +1,23 @@
+#Compiled sources
+*.o
+*.d
+
+#The build directory
+build/
+
+#The binary(s)
+cpp-tftp-server
+cpp-tftp-server-debug-build
+
+#test-generated files
+tests/logs.txt
+tests/error_logs.txt
+
+#OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
